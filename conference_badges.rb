@@ -15,5 +15,6 @@ def assign_rooms(room)
   array = []
   room.each do|room|
     array << "Hello #{name}! You'll be assigned to room #{room}"
+  end
   return array
 end
